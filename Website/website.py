@@ -7,4 +7,4 @@ app.register_blueprint(views, url_prefix="/")
 app.register_blueprint(images, url_prefix="/images")
 
 if __name__ == "__main__":
-    app.run(port=8000, host="10.42.1.10")
+    app.run(port=8000, host="10.42.0.103")
