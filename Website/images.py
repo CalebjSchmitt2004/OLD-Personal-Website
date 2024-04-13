@@ -12,3 +12,8 @@ def homepage_message_image():
 @images.route("/about/me")
 def about_profile_image():
     return send_file("./images/me.jpeg")
+
+
+@images.route("/website/icon")
+def icon():
+    return send_file("./images/icon.png")
