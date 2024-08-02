@@ -1,0 +1,99 @@
+{% extends "base.html" %}
+
+{% block main_block %}
+
+<div class="homepage-message rounded">
+    <p class="container rounded homepage-message-text" style="font-weight: bold; font-size: 30px;">Hello There,</p>
+    <p class="container rounded homepage-message-text" style="font-weight: bold;">I'm Caleb Schmitt, a passionate Software Developer and IT Technician with a focus on crafting innovative solutions. I’m in the final stages of completing my Computer Science degree at Indiana State University, where I specialize in Software and Operating System Development. My career aspiration is to create software that simplifies and enhances everyday life.</p>
+    <a class="btn btn-sm rounded-pill nav-items-title" aria-current="page" href="/about" style="margin-left: 40px; margin-top: 20px; font-weight: bold; border-color: #EEEEEE; border-width: 1px;">Learn more about me</a>
+</div>
+
+{% endblock %}
+
+{% block block2 %}
+
+<div class="container rounded services-block">
+    <div class="container rounded text-center block-title-bar">
+        <p>Services I Provide</p>
+    </div>
+
+    <div class="row text-center" style="margin-top: 10px; margin-left: 2.25vw;">
+        <div class="card cards" style="width: 26rem;">
+          <img style="border-radius: 5%; margin-top: 10px; height: 40%;" src="https://res.cloudinary.com/dbulfrlrz/images/f_auto,q_auto/v1707561178/wp-pme/cloud-vs-physical-storage-blog@2x/cloud-vs-physical-storage-blog@2x.?_i=AA" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Storage Hosting</h5>
+            <p class="card-text">Access your data from anywhere with remote cloud storage. Whether you need storage or backups, having secure and convenient access to your important files is crucial. With CJS storage servers adhering to the 3-2-1 backup strategy, you don’t have to worry about losing your data. Contact me to learn more.</p>
+          </div>
+        </div>
+        <div class="card cards" style="width: 26rem;">
+            <img style="border-radius: 5%; margin-top: 10px; height: 40%;" src="https://boldist.co/wp-content/uploads/2021/03/Laughing-Samurai-How-to-Write-User-Friendly-Error-Messages-scaled.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Technical Support</h5>
+            <p class="card-text">You don’t need to be a computer expert—that’s my job. Allow me to take care of the technical aspects and ensure everything operates seamlessly. This way, you can concentrate on your core responsibilities and excel in what you do best, while I handle the behind-the-scenes work to keep everything running smoothly and efficiently.</p>
+          </div>
+        </div>
+        <div class="card cards" style="width: 26rem;">
+          <img style="border-radius: 5%; margin-top: 10px; height: 40%;" src="https://teamtweaks1-blog.s3.us-east-2.amazonaws.com/blog/wp-content/uploads/2022/11/17061018/Banner.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Web App Development</h5>
+            <p class="card-text">Don’t let technology hinder your vision. Let’s sit down to discuss your next big idea, and we’ll take care of the design, development, and deployment. Together, we’ll turn your concept into reality smoothly and efficiently.</p>
+          </div>
+        </div>
+         <div class="card cards" style="width: 26rem;">
+          <img style="border-radius: 5%; margin-top: 10px; height: 40%;" src="https://cdn.prod.website-files.com/63f5de8e8260819e3bbf4432/65e5b98b4b0cdc1b02df9677_Overview%20of%20Free%20Web%20Hosting%20without%20Domain.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Website Hosting</h5>
+            <p class="card-text">You deserve to see your name or brand shine. With CJS Web Hosting, we offer the tools and support you need to establish a strong online presence. We’ll help you reach a global audience and make a lasting impression, ensuring your brand stands out and gets the visibility it deserves. Let us take care of the technical details so you can focus on what you do best.</p>
+          </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block block3 %}
+<div class="container rounded services-block">
+    <div class="container rounded text-center block-title-bar">
+        <p>My Featured Projects</p>
+    </div>
+
+    <div class="row text-center" style="margin-top: 10px; margin-left: .3vw;">
+        <div class="card cards" style="width: 21.5rem;">
+          <img style="border-radius: 5%; margin-top: 10px; height: 40%; max-height: 100%l" src="https://miro.medium.com/v2/resize:fit:1400/1*6K5vmzalJUxn44v3cm6wBw.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">The Homelab</h5>
+            <p class="card-text">My homelab serves as a dynamic environment for learning, growth, and hosting a diverse array of services. It is a continually evolving project, consistently updated to incorporate the latest advancements. Not only does it feature extensive redundancy, but it also forms the reliable backbone for both calebjschmitt.com and CJS Hosting.</p>
+          </div>
+        </div>
+        <div class="card cards" style="width: 21.5rem;">
+          <img style="border-radius: 5%; margin-top: 10px; height: 39.5%;" src="/images/projects/data-tracker" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Meadowood Gardens - Data Tracker</h5>
+            <p class="card-text">When considering my goal to create software that enhances people's lives, I think about this particular project. The aim is to make my father's daily job a bit easier. This project utilizes the Google API to track and update the services provided to his clients.</p>
+          </div>
+        </div>
+        <div class="card cards" style="width: 21.5rem;">
+          <img style="border-radius: 5%; margin-top: 10px; height: 40%;;" src="https://growrk.com/hubfs/Imported_Blog_Media/Remote-Device-Management.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Remote Access\Device Management</h5>
+            <p class="card-text">You can't be everywhere at once, but the ability to remotely access people's devices greatly simplifies troubleshooting. It enables you to diagnose and resolve issues quickly, provide real-time support, and minimize downtime, ensuring a smoother experience for users.</p>
+          </div>
+        </div>
+        <div class="card cards" style="width: 21.5rem;">
+          <img style="border-radius: 5%; margin-top: 10px; height: 50%;" src="https://growrk.com/hubfs/470_MDM-for-laptops%20%281%29.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Virtual Private Network</h5>
+            <p class="card-text">Secure internet access is crucial in today's digital age. That's why I took the initiative to set up a VPN. This allows me to not only access the internet securely but also establish secure connections to cloud services. With the VPN, I can protect sensitive data, ensure privacy, and maintain a high level of security for all online activities.</p>
+          </div>
+        </div>
+        <div class="card cards" style="width: 21.5rem;">
+          <img style="border-radius: 5%; margin-top: 10px; height: 40%;" src="https://cdn.appuals.com/wp-content/uploads/2022/04/Windows-365-updates-0-14-screenshot.png.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Remote Workspaces</h5>
+            <p class="card-text">You should be able to access your computer from anywhere at any time, and remote workspaces make this possible. They also enable the creation of secure containers for one-time use browsers, allowing secure internet access without leaving a digital footprint.</p>
+          </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
