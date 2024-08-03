@@ -8,7 +8,7 @@
 
 ## Version
 
-        Wesite: V1.0
+        Wesite: V2.0
         Cluster Method: Proxmox vertualized server
         Web Engine: Flask, python 3.10
         Design: Caleb J Schmitt
