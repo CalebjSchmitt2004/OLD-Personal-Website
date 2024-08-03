@@ -11,12 +11,17 @@ def homepage_message_image():
 
 @images.route("/about/me")
 def about_profile_image():
-    return send_file("./images/me.jpeg")
+    return send_file("./images/headshot.jpg")
 
 
 @images.route("/website/icon")
 def icon():
     return send_file("./images/icon.png")
+
+
+@images.route("/website/me")
+def me():
+    return send_file("./images/me.jpeg")
 
 
 @images.route("/projects/data-tracker")

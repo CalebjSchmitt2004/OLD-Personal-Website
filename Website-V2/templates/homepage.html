@@ -2,10 +2,15 @@
 
 {% block main_block %}
 
-<div class="homepage-message rounded">
-    <p class="container rounded homepage-message-text" style="font-weight: bold; font-size: 30px;">Hello There,</p>
-    <p class="container rounded homepage-message-text" style="font-weight: bold;">I'm Caleb Schmitt, a passionate Software Developer and IT Technician with a focus on crafting innovative solutions. I’m in the final stages of completing my Computer Science degree at Indiana State University, where I specialize in Software and Operating System Development. My career aspiration is to create software that simplifies and enhances everyday life.</p>
-    <a class="btn btn-sm rounded-pill nav-items-title" aria-current="page" href="/about" style="margin-left: 40px; margin-top: 20px; font-weight: bold; border-color: #EEEEEE; border-width: 1px;">Learn more about me</a>
+<div class="homepage-message rounded float-container">
+    <div style="width: 55%; margin-top: 75px;" class="float-child">
+        <p class="container rounded homepage-message-text" style="font-weight: bold; font-size: 30px; width: 100%;">Hello There,</p>
+        <p class="container rounded homepage-message-text" style="font-weight: bold; width: 100%;">I'm Caleb Schmitt, a passionate Software Developer and IT Technician with a focus on crafting innovative solutions. I’m in the final stages of completing my Computer Science degree at Indiana State University, where I specialize in Software and Operating System Development. My career aspiration is to create software that simplifies and enhances everyday life.</p>
+        <a class="btn btn-sm rounded-pill nav-items-title" aria-current="page" href="/about" style="margin-left: 40px; margin-top: 20px; font-weight: bold; border-color: #EEEEEE; border-width: 1px;">Learn more about me</a>
+    </div>
+    <div class="float-child" style="width: 10px; margin-left: 12.5%;">
+        <img style="height: 500px;" src="/images/website/me">
+    </div>
 </div>
 
 {% endblock %}
